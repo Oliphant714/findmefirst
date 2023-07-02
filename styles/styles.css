@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com>);
+/*Header*/
+body {
+    background-color:antiquewhite;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 1fr;
+    background-color: antiquewhite;
+    padding: 10px;
+    border:#7ed3c3;
+}
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-height: 75px;
+    max-width: 75px;
+    display: inline;
+}
+.minigrid {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+.header-text {
+    display: inline;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align:center;
+    justify-content: center auto;
+    align-items: center;
+    font-size: xx-large;   
+    text-decoration: none;
+    color:#434450;
+    font-family: 'Lucida Handwriting', Georgia, 'Times New Roman', Times, serif;
+}
+.link-button {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    width: 100px;
+    background-color: #7ed3c3;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+/*Body Stuff*/
+main {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 20px 3fr 20px 33% 20px;
+    grid-template-rows: 1fr 2fr;
+    margin: 0 auto;
+    border-top-color: #434450;
+    border-top-width: 20px;
+}
+.top {
+    grid-row: 1/2;
+}
+.lower {
+    grid-row: 2/3;
+}
+.left {
+    grid-column: 2/3;
+}
+.right {
+    grid-column: 4/5;
+}
+.full-screen-img {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    height:  auto 100%;
+    max-height: 800px;
+    margin:auto;
+}
+.grocery-pic {
+    grid-column: 2/3;
+    width: auto 100%;
+    max-width: 800px;
+    margin:auto;
+}
+.home-text {
+    background-color: #526367;
+    color: #86e6d2;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+/*Footer Stuff*/
+footer {
+    background-color: #86e6d2;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:auto 100%;
+    display: grid;
+    grid-template-columns: 20px 50% 25% 25%;
+}
+.newsletter {
+    grid-column: 2/3;
+    margin: 10px;
+    color:#7ed3c3;
+    display: inline;
+}
+.footer-text {
+    font-family: 'Lucida Handwriting', Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+.social-links {
+    grid-column: 4/5;
+    display: inline;
+}
+.plan-link {
+    grid-column: 3/4;
+}
