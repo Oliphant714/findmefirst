@@ -30,9 +30,6 @@ header {
     display: inline;
     grid-column: 1/4;
     grid-row: 1/2;
-    text-align:center;
-    justify-content: center auto;
-    align-items: center;
     font-size: xx-large;   
     text-decoration: none;
     color:#434450;
@@ -44,6 +41,16 @@ header {
     width: 100px;
     background-color: #7ed3c3;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+/*Banner*/
+.banner {
+    background-color:#86e6d2;
+    text-align: center;
+}
+.banner-text {
+    font-family: 'Lucida Handwriting', Georgia, 'Times New Roman', Times, serif;
+    color:#434450;
+    
 }
 /*Body Stuff*/
 main {
@@ -58,7 +65,7 @@ main {
 .top {
     grid-row: 1/2;
 }
-.lower {
+.bottom {
     grid-row: 2/3;
 }
 .left {
@@ -70,6 +77,13 @@ main {
 .full-screen-img {
     grid-column: 4/5;
     grid-row: 1/3;
+    height:  auto 100%;
+    max-height: 800px;
+    margin:auto;
+}
+.half-screen-img {
+    grid-column: 4/5;
+    grid-row: 1/2;
     height:  auto 100%;
     max-height: 800px;
     margin:auto;
@@ -87,6 +101,13 @@ main {
     font-size: 20px;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
+.company-photo {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    height: 100%;
+    max-height: 800px;
+    width: 100%;
+}
 /*Footer Stuff*/
 footer {
     background-color: #86e6d2;
@@ -95,6 +116,7 @@ footer {
     width:auto 100%;
     display: grid;
     grid-template-columns: 20px 50% 25% 25%;
+    text-align: center;
 }
 .newsletter {
     grid-column: 2/3;
