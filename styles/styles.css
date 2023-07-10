@@ -95,6 +95,7 @@ main {
     margin:auto;
 }
 .home-text {
+    max-width: 800px;
     background-color: #526367;
     color: #86e6d2;
     padding: 15px;
@@ -107,6 +108,19 @@ main {
     height: 100%;
     max-height: 800px;
     width: 100%;
+}
+.mother-son {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    height: 100%;
+    max-width: 800px;
+    width: 100%;
+}
+.father-daughter {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    height: 100%;
+    max-height: 800px;
 }
 /*Footer Stuff*/
 footer {
