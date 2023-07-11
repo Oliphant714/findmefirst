@@ -36,16 +36,24 @@ header {
     font-family: 'Lucida Handwriting', Georgia, 'Times New Roman', Times, serif;
 }
 .link-button {
-    grid-column: 1/4;
+    display: inline;
     grid-row: 2/3;
     width: 100px;
-    background-color: #7ed3c3;
+    background-color: #86e6d2;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color:#434450;
+    border:5px solid #434450;
+    
 }
 /*Banner*/
 .banner {
     background-color:#86e6d2;
     text-align: center;
+    border: 5px solid #434450;
 }
 .banner-text {
     font-family: 'Lucida Handwriting', Georgia, 'Times New Roman', Times, serif;
